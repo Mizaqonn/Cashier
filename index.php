@@ -21,7 +21,7 @@
 
         <button type="submit" name="kirim" value="kirim"><i class='bx bx-plus'></i>TAMBAH</button>
         <button type="submit" name="kirim" value="cetak"><i class='bx bxs-printer'></i><a href="Cashier1.php">CETAK</a></button>
-        <button type="submit" name="hapus" value="hapus"><i class='bx bxs-trash'></i><a href="Cashier.php">HAPUS DATA</a></button>
+        <button type="submit" name="hapus" value="hapus"><i class='bx bxs-trash'></i><a href="index.php">HAPUS DATA</a></button>
 
     <?php
         session_start();
@@ -42,7 +42,7 @@
         if(isset($_GET['hapus'])) {
             $index = $_GET['hapus'];
             unset($_SESSION['toko'][$index]);
-            header('Location: http://localhost/OOP/Cashier.php');
+            header('Location: http://localhost/OOP/index.php');
             exit;
         }
 
