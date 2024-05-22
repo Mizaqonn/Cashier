@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  form {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left : 405px;
+    top: 50px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[id="BR"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  input[id="JB"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  input[id="HB"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  button[value="kirim"],
+  a.btn:hover {
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  button[value="cetak"],
+  a.btn:hover {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  button[value="hapus"],
+  a.btn:hover {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    background-color:blue ;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #da190b;
+  }
+  
+  .btn-danger:hover {
+    background-color: #f44336;
+  }
